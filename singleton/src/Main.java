@@ -11,5 +11,8 @@ public class Main {
         Singleton3 s3 = Singleton3.getInstance();
         System.out.println(s3);
 
+        Singleton1 si3 = Singleton1.getInstance();
+        System.out.println(si3);
+
     }
 }

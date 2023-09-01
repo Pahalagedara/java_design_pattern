@@ -8,6 +8,8 @@ public class Singleton3 {
         }catch (Exception e){
             throw new RuntimeException(e);
         }
+        System.out.println("sss");
+
         return instance;
     }
 

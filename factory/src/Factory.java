@@ -1,5 +1,5 @@
 public class Factory {
-    public static IVehicles create(String brand){
+    public static Vehicles create(String brand){
         if (brand=="BMW")
             return new BMW();
         else if (brand == "Nissan")

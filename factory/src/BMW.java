@@ -1,4 +1,4 @@
-public class BMW implements IVehicles{
+public class BMW implements Vehicles {
     @Override
     public void brand() {
 
